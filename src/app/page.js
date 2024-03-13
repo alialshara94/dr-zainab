@@ -1,25 +1,27 @@
 import Image from "next/image";
 import profilePic from '../../public/white1.png'
-import profilePic2 from '../../public/yallow.png'
+import facebook from '../../public/face.jpg'
+import instagram from '../../public/insta.jpg'
+import tiktok from '../../public/tiktok.png'
 import { FaLocationDot } from "react-icons/fa6";
 import CardComponent from "./CardComponent";
 export default function Home() {
 
   const cards = [
     {
-      imageUrl: profilePic2,
+      imageUrl: facebook,
       ar_title: 'صفحة الفيسبوك',
       en_title: 'Facebook',
       link: 'https://www.facebook.com/BeautyClinicDrZainab?mibextid=ZbWKwL'
     },
     {
-      imageUrl: profilePic2,
-      ar_title: 'Test1',
-      en_title: 'Test1',
-      link: 'https://www.google.com'
+      imageUrl: instagram,
+      ar_title: 'صفحة الانستكرام',
+      en_title: 'instagram',
+      link: 'https://www.instagram.com/dr.zainab.sharba?igsh=MWluNHg0anZlMDBnMQ=='
     },
     {
-      imageUrl: profilePic2,
+      imageUrl: tiktok,
       ar_title: 'تيك توك',
       en_title: 'TikTok',
       link: 'https://www.tiktok.com/@zainasvyjlq?_r=1&_d=e581cdb6lkhmf5&sec_uid=MS4wLjABAAAAZuCdF-V35vYcWuxY9YmMPcUrzGVBI2d1OeWJWSxzza-IQYpsKnfmvGSHg3svYyZx&share_author_id=7312198901084357638&sharer_language=ar&source=h5_m&u_code=de88362e40i4h1&timestamp=1710367513&user_id=6867237219607397382&sec_user_id=MS4wLjABAAAA7wykLo_peneDHc__2DUHLYXxlSAE8ixpKI3UVAvFT6u0pHKFwk84S36M-Kl9KAhk&utm_source=telegram&utm_campaign=client_share&utm_medium=android&share_iid=7345512421782505221&share_link_id=11e31a69-01f9-406b-a81a-db583dfc7eee&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b2001%2Cb5836&social_share_type=5&enable_checksum=1'
