@@ -1,12 +1,11 @@
 import Image from "next/image";
 import profilePic from '../../public/white1.png'
-import facebook from '../../public/face.jpg'
-import instagram from '../../public/insta.jpg'
+import facebook from '../../public/face.png'
+import instagram from '../../public/insta.png'
 import tiktok from '../../public/tiktok.png'
 import whatsapp from '../../public/whatsapp.png'
 import phone from '../../public/phone.png'
 import location from '../../public/location.png'
-import { FaLocationDot } from "react-icons/fa6";
 import CardComponent from "./CardComponent";
 export default function Home() {
 
