@@ -3,6 +3,9 @@ import profilePic from '../../public/white1.png'
 import facebook from '../../public/face.jpg'
 import instagram from '../../public/insta.jpg'
 import tiktok from '../../public/tiktok.png'
+import whatsapp from '../../public/whatsapp.png'
+import phone from '../../public/phone.png'
+import location from '../../public/location.png'
 import { FaLocationDot } from "react-icons/fa6";
 import CardComponent from "./CardComponent";
 export default function Home() {
@@ -26,12 +29,24 @@ export default function Home() {
       en_title: 'TikTok',
       link: 'https://www.tiktok.com/@zainasvyjlq?_r=1&_d=e581cdb6lkhmf5&sec_uid=MS4wLjABAAAAZuCdF-V35vYcWuxY9YmMPcUrzGVBI2d1OeWJWSxzza-IQYpsKnfmvGSHg3svYyZx&share_author_id=7312198901084357638&sharer_language=ar&source=h5_m&u_code=de88362e40i4h1&timestamp=1710367513&user_id=6867237219607397382&sec_user_id=MS4wLjABAAAA7wykLo_peneDHc__2DUHLYXxlSAE8ixpKI3UVAvFT6u0pHKFwk84S36M-Kl9KAhk&utm_source=telegram&utm_campaign=client_share&utm_medium=android&share_iid=7345512421782505221&share_link_id=11e31a69-01f9-406b-a81a-db583dfc7eee&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b2001%2Cb5836&social_share_type=5&enable_checksum=1'
     },
-    // {
-    //   imageUrl: profilePic2,
-    //   ar_title: 'Test1',
-    //   en_title: 'Test1',
-    //   link: 'https://www.google.com'
-    // },
+    {
+      imageUrl: whatsapp,
+      ar_title: 'الواتس اب',
+      en_title: 'Whatsapp',
+      link: 'https://www.facebook.com/BeautyClinicDrZainab?mibextid=ZbWKwL'
+    },
+    {
+      imageUrl: phone,
+      ar_title: 'رقم الهاتف',
+      en_title: 'Phone Number',
+      link: 'https://www.facebook.com/BeautyClinicDrZainab?mibextid=ZbWKwL'
+    },
+    {
+      imageUrl: location,
+      ar_title: 'موقع العيادة',
+      en_title: 'Location',
+      link: 'https://www.facebook.com/BeautyClinicDrZainab?mibextid=ZbWKwL'
+    },
   ]
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-[15px]">
